@@ -1,0 +1,45 @@
+/* site.css */
+header, footer {
+    border: solid 1px pink;
+}
+
+body {
+    /* background-color: black;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    background-color: rgb(255, 51, 0);
+    color: white;
+
+}
+
+footer {
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+#main {
+    border: solid 1px rgb(248, 121, 121);
+    border-radius: 5px;
+    margin: 10px 10px 10px 5px;
+    padding: 10px;
+ 
+}
+
+/*
+#main > form > label {
+    font-weight: bold;
+}
+*/
+
+#main label {
+    font-weight: bold;
+}
+
+#main input[type=text], #main select{
+    width: 150px;
+}
+
+#githubGif {
+    /*align-items: center;*/
+}

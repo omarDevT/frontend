@@ -2,14 +2,55 @@
 <html>
     <head>
         <title>Github Hub</title>
+           <!--[if lt IE 9]
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"><script>
+            <![endif]-->
+            <link rel="stylesheet" href="css/site.css"/>
     </head>
     <body>
-        <div>
-        <h1>Github Hub</h1>
-        <h2><img src="img/logo.gif"></src></h2> 
-        <p>simply <em>search</em> for <strong>project</strong> choose a lang and indicate the type</p>
-    </div>
+        <header >
+             <div  id="githubTxt">Github Hub</div>
+             <div><img src="img/logo.gif"  id="githubGif"></src></div>
+             <div>simply <em>search</em> for <strong>project</strong> choose a lang and <span>indicate</span>indicate the type</div>
+             <nav>
+                 <ul>
+                     <li><a href="/index.html">Home</a></li>
+                     <li><a href="/contact.html">Contact</a></li>
+                     <li><a href="/about.html">about</a></li>
+                </ul>
+             </nav>
+        </header>
+
+       <!-- keep scrolling-->
+    <section id="main">
         <p>a site too lookup <a href="http://github.com">github</a></p>
+        <form action="http://wilder.azurewebsites.net/echo" method="post">
+            
+            <label for="searchPhrase">Search Phrase:</label>
+            <input name="searchPhrase" id="searchPhrase" /><br/>
+            
+            <label for="useStars">Use Stars:</label>
+            <input type="checkbox" name="useStars" id="useStars" checked="true" /><br/>
+            
+            <label for="langChoice">Language:</label>
+            <select name="langChoice">
+                <option selected>All</option>
+                <option>Js</option>
+                <option>C#</option>
+                <option>Java</option>
+                <option>Ruby</option>
+            </select><br/>
+
+            <input type="submit" value="search" /><br/>
+
+        </form>
+    </section>
+
+    <footer>
+    &copy; Gandalf the gray 2003    
+    </footer>
+    
+        
     </body>
 </html>
 

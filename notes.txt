@@ -1,0 +1,12 @@
+escapping charicters like &copy; they all start with a & sign 
+
+smantic tags like <section>
+
+<form> indicats that we we are collecting data from user and for example sending it to the server
+<br/> comes allone and is used to break lines
+
+
+to test broeser v
+   <!--[if lt IE 9]
+
+        <![endif]-->
